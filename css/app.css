@@ -127,6 +127,7 @@ footer {
     background-color: var(--bs-cream-info);
     padding-top: 7rem;
     padding-bottom: 1rem;
+
 }
 
 footer ul {
@@ -152,7 +153,6 @@ footer i:hover{
 }
 
 .iconFooter {
-    padding-top: 10rem;
     font-size: 4rem;
 }
 
