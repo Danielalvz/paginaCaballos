@@ -97,6 +97,14 @@ main button, footer button {
     border: none;
 }
 
+main button:hover {
+    background-color: var(--bs-brown-honey);
+}
+
+.membership button:hover {
+    background-color: var(--bs-cream-info)!important;
+}
+
 .btn-welcome {
     background-color: var(--bs-brown-light);
 }
@@ -148,12 +156,17 @@ footer i{
     margin-right: 1rem;
 }
 
-footer i:hover{
-    color: var(--bs-brown-honey)!important;
+footer i:hover {
+    color: var(--bs-brown-ligth-i);
 }
 
-.iconFooter {
+.iconFooter i{
     font-size: 4rem;
+    cursor: pointer;
+}
+
+.iconFooter i:hover{
+    color: var(--bs-brown)!important;
 }
 
 footer h3, p {
