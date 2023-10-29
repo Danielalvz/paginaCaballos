@@ -1,0 +1,208 @@
+:root {
+    --bs-brown-light: #483424;
+    --bs-brown-ligth-i: #422c1a80;
+    --bs-brown-honey: #946830;
+    --bs-brown: #30261c;
+    --bs-beige: #fbd6b9;
+    --bs-cream-bg: #f1efe3;
+    --bs-cream-info: #f2f0e4;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1 rem = 10px **/
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;  
+}
+
+/* HEADER */
+h1, h4 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 3.8rem;
+    color: var(--bs-brown-honey);
+}
+
+#navegacion nav a {
+    color: var(--bs-brown-light);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover {
+    color: var(--bs-brown-honey)!important;
+}
+
+/* Carrusel */
+/* .hero {
+    background-image: url(../img/slide1.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+} */
+
+.carrusel img{
+    height: 25rem;
+}
+
+/* MAIN */
+
+.welcome {
+    background-color: var(--bs-brown);
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.welcome h2 {
+    font-family: 'Oregano', cursive;
+    font-size: 4.5rem;
+    border-bottom: 1px solid var(--bs-beige);
+}
+
+.welcome span {
+    color: var(--bs-brown-honey);
+}
+
+.membership {
+    /* background-color: #25170b; */
+    background-color: var(--bs-brown-light);
+}
+
+.ligth {
+    background-color: var(--bs-brown-ligth-i)!important;
+}
+
+.membership img {
+    width: 15rem;
+    padding: 1rem;
+}
+
+.inverted {
+    transform: scaleY(-1);
+}
+
+.membership h3 {
+    font-size: 2.5rem;
+}
+
+main button, footer button {
+    border-radius: 0.8rem;
+    width: 12rem;
+    height: 5rem;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-welcome {
+    background-color: var(--bs-brown-light);
+}
+
+.information, footer {
+    padding-bottom: 10rem;
+    border-bottom: 1px dashed var(--bs-brown-light);
+    background-color: var(--bs-cream-info);
+}
+
+.information h4 {
+    border-bottom: 1px dashed var(--bs-brown-light);
+    font-size: 2rem;
+}
+
+.information img {
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.information img:hover {
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--bs-cream-info);
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    color: var(--bs-brown-light);
+    padding-bottom: 8rem!important;
+}
+
+footer img {
+    width: 5rem;
+}
+
+footer i{
+    color: #8f5f38;
+    margin-right: 1rem;
+}
+
+footer i:hover{
+    color: var(--bs-brown-honey)!important;
+}
+
+.iconFooter {
+    padding-top: 10rem;
+    font-size: 4rem;
+}
+
+footer h3, p {
+    color: var(--bs-brown);
+}
+
+footer input {
+    border-radius: 1em!important;
+}
+
+footer button {
+    width: 1.5rem;
+}
+
+
+/** Reescribir colores */
+.text-primary {
+    color: var(--bs-brown) !important;
+}
+
+.text-secondary {
+    color: var(--bs-beige) !important;
+}
+
+.text-warning {
+    color: var(--bs-brown-light);
+}
+
+.text-info {
+    color: var(--bs-brown-honey) !important;
+}
+
+.bg-info {
+    background-color: var(--bs-brown-honey) !important;
+}
+
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+
+    /* Header */
+    h1 {
+        font-size: 5rem;
+    }
+
+    /*Hero */
+
+    .carrusel img {
+        height: 55rem;
+    }
+
+}

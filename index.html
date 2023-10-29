@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Oregano&family=Raleway:wght@400;600&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header class="d-flex flex-column align-items-center flex-lg-row justify-content-around">
+        <h1 class="py-4 text-center text-uppercase">
+            Horse
+            <span class="text-primary"> Club</span>
+        </h1>
+
+        <div class="d-flex align-items-center">
+            <div class="d-flex justify-content-center p-3 navbar navbar-expand-lg container navbar-light ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navegacion" class="collapse navbar-collapse ">
+                    <nav
+                        class="navbar-nav container text-center mt-5 m-lg-0 flex-lg-row justify-content-md-between gap-5 text-uppercase fw-bold">
+                        <a class="text-decoration-none" href="#">About us</a>
+                        <a class="text-decoration-none" href="#">Our horses</a>
+                        <a class="text-decoration-none" href="#">Staffs</a>
+                        <a class="text-decoration-none" href="#">Links</a>
+                        <a class="text-decoration-none" href="#">Contacts</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- <div class="hero"></div> -->
+    <section class="seccion">
+        <div class="carrusel">
+            <div id="indicadores" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#indicadores" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid d-block w-100" src="img/slide1.jpg" alt="Imagen caballos slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid d-block w-100" src="img/slide2.jpg" alt="Imagen caballos slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid d-block w-100" src="img/slide3.jpg" alt="Imagen caballos slide 3">
+                    </div>
+    
+                    <button type="button" class="carousel-control-prev" data-bs-target="#indicadores" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+    
+                    <button type="button" class="carousel-control-next" data-bs-target="#indicadores" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container-fluid">
+        <div class="row welcome justify-content-center">
+            <div class="col-md-8 col-lg-4 p-5 m-5">
+                <h2 class="text-secondary text-uppercase pb-5">Welcome</h2>
+                <p class="text-secondary pb-5 pt-5">Masagni dolores eoquie voluptate msequciunt. Niquerro quisquam
+                    estqui dolorem
+                    ipsumquia dolor sitamet
+                    conetase adipisci unumquam eius. Basmodi <span>tempora idunt</span>, ut laboreas dolore magnam
+                    aliquam
+                    quaerat
+                    ptatem. Munim ad minim eniamagse quis nostrum exercitationem ullam.</p>
+                <button class="btn-welcome text-uppercase text-secondary fw-bold">Read more</button>
+            </div>
+
+            <div class="col-md-6 col-lg-2 membership ligth p-5 text-center ">
+                <img src="img/logo2.webp" alt="Imagen de decoracion">
+                <h3 class="membership-title text-uppercase text-info">Membership</h3>
+                <img class="inverted" src="img/logo2.webp" alt="Imagen de decoracion invertida">
+                <p class="text-secondary pb-5 pt-5">Fadipisci unumqu eius. Basmodi tempora duntut kaser laboreas.</p>
+                <button class="text-uppercase text-primary bg-info fw-bold">Learn more</button>
+            </div>
+            <div class="col-md-6 col-lg-2 membership p-5 text-center">
+                <img src="img/logo2.webp" alt="Imagen de decoracion">
+                <h3 class="membership-title text-uppercase text-info">Activities</h3>
+                <img class="inverted" src="img/logo2.webp" alt="Imagen de decoracion">
+                <p class="text-secondary pb-5 pt-5">Dolorem magnam aliquam quaretat ptatem. Munim ase minim karses.</p>
+                <button class="text-uppercase text-primary bg-info fw-bold">View more</button>
+            </div>
+        </div>
+        <div class="row information p-5 justify-content-center gap-5">
+            <div class="col-md-6 col-lg-3">
+                <h4 class="pt-5 pb-4 text-uppercase text-primary fw-bold">Our history</h4>
+                <div class="overflow-hidden">
+                    <img class="pt-3" src="img/page1_img1.jpg" alt="Imagen caballos">
+                </div>   
+                <p class="pt-4 text-info">Nertyase riti masertas lertyars kuhas asety kertya aset aplicabo nereskes
+                    kertyu ersvitae ertynemo lasvaerat niptaiades goertayse.</p>
+                <button class="btn-welcome text-uppercase text-secondary fw-bold mt-4">Read more</button>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h4 class="pt-5 pb-4 text-uppercase text-primary fw-bold">Show result</h4>
+                <div class="overflow-hidden">
+                    <img class="pt-3" src="img/page1_img2.jpg" alt="Imagen caballos">
+                </div>   
+                <p class="pt-4 text-info">Beciegast nveriti vitaesaert viasead asety kertya aset aplicaboserde miuas
+                    nerafae kertye rauas vitaesa ertyatya nemo eniptaiades.</p>
+                <button class="btn-welcome text-uppercase text-secondary fw-bold mt-4">Read more</button>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-5">
+                <h4 class="pt-5 pb-4 text-uppercase text-primary fw-bold">Publications</h4>
+                <div class="overflow-hidden">
+                    <img class="pt-3" src="img/page1_img3.jpg" alt="Imagen caballos">
+                </div>  
+                <p class="pt-4 text-info">Nertyase riti masertas lertyars kuhas asety kertya aset aplicabo nereskes
+                    kertyu ersvitae ertynemo lasvaerat niptaiades goertayse.</p>
+                <button class="btn-welcome text-uppercase text-secondary fw-bold mt-4">Read more</button>
+            </div>
+        </div>
+    </main>
+    <footer class="row justify-content-center gap-3">
+        <div class="col-sm-4 col-lg-2 text-uppercase">
+            <ul>
+                <li><i class="mr-4 fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Stallion list</a></li>
+                <li><i class="pr-5 fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">News & events</a></li>
+                <li><i class="pr-5 fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Fresh links</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-lg-2 text-uppercase">
+            <ul class="mr-4">
+                <li><i class="mr-4 fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Gallery</a></li>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Our community</a></li>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Registration</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-lg-2 text-uppercase">
+            <ul>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Our experience</a></li>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Awards</a></li>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Instructors</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-lg-2 text-uppercase">
+            <ul>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Resources</a></li>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Contact us</a></li>
+                <li><i class="fa-solid fa-circle-chevron-right"></i><a class="text-decoration-none" href="#">Forum</a></li>
+            </ul>
+        </div>
+        <div class="col-8 col-md-6 col-lg-3">
+            <form action="">
+                <h3 class="text-uppercase">Newsletter sign up</h3>
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Enter your e-mail" aria-label="Email">
+                    <button class="btn" type="submit">
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="iconFooter">
+            <i class="d-flex justify-content-end fa-solid fa-circle-arrow-up"></i>
+        </div>
+
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
